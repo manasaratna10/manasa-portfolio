@@ -1,0 +1,265 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Manasa Ratna Peerupalli - Forensic Science Professional">
+    <meta name="author" content="Manasa Ratna Peerupalli">
+    <meta name="keywords" content="Manasa Ratna Peerupalli, Manasa Ratna, Forensic Science, Portfolio, Manasa Peerupalli, Forensic Analyst, Crime Scene Investigation">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta name="google-site-verification" content="vnVgz-zTTxtTiWzhJk964-cw0z8mvyD8OVIXQrIRROw" />
+    <title>Manasa Ratna Peerupalli</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="mask-icon" href="favicon.svg" color="#0284c7">
+    
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Manasa Ratna Peerupalli - Forensic Science Portfolio">
+    <meta property="og:description" content="Portfolio of Manasa Ratna Peerupalli, a Forensic Science student specializing in evidence analysis and crime scene investigation.">
+    <meta property="og:image" content="IMG_20251229_132125.jpg">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Manasa Ratna Peerupalli",
+      "jobTitle": "Forensic Science Student",
+      "sameAs": [
+        "https://www.linkedin.com/in/manasa-ratna-9b5743354"
+      ]
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logo">Manasa Ratna Peerupalli<span>,</span></div>
+        <nav class="navbar">
+            <a href="#" onclick="showSection('home', event)" data-section="home" class="active-link"><i class="fas fa-home"></i> <span style="font-size: 0.8em; margin-left: 5px;">Home</span></a>
+            <a href="#" onclick="showSection('about', event)" data-section="about"><i class="fas fa-user"></i> <span style="font-size: 0.8em; margin-left: 5px;">About</span></a>
+            <a href="#" onclick="showSection('skills', event)" data-section="skills"><i class="fas fa-code"></i> <span style="font-size: 0.8em; margin-left: 5px;">Skills</span></a>
+            <a href="#" onclick="showSection('education', event)" data-section="education"><i class="fas fa-graduation-cap"></i> <span style="font-size: 0.8em; margin-left: 5px;">Education</span></a>
+            <a href="#" onclick="showSection('projects', event)" data-section="projects"><i class="fas fa-flask"></i> <span style="font-size: 0.8em; margin-left: 5px;">Projects</span></a>
+            <a href="#" onclick="showSection('achievements', event)" data-section="achievements"><i class="fas fa-trophy"></i> <span style="font-size: 0.8em; margin-left: 5px;">Achievements</span></a>
+            <a href="#" onclick="showSection('contact', event)" data-section="contact"><i class="fas fa-envelope"></i> <span style="font-size: 0.8em; margin-left: 5px;">Contact</span></a>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="active">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h1>Hi, I'm Manasa</h1>
+                    <h3 id="typing-text">Forensic Science Student</h3>
+                    <p>Forensic Science Student | Precision. Proof. Truth.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/manasa-ratna-9b5743354" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:manasaratna2707@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <div class="hero-btns">
+                        <a href="#contact" onclick="showSection('contact', event)" class="btn">Contact Me</a>
+                        <a href="#" onclick="openResumeModal(event)" class="btn btn-outline"><i class="fas fa-eye"></i> Preview</a>
+                        <a href="Manasa_Ratna_Resume.pdf" download class="btn btn-outline"><i class="fas fa-download"></i> Download Resume</a>
+                    </div>
+                </div>
+                <div class="hero-img">
+                    <img src="IMG_20251229_132125.jpg" alt="Manasa Ratna Peerupalli" width="380" height="380" fetchpriority="high">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <button class="close-btn" onclick="showSection('home')" title="Close (Esc)"><i class="fas fa-times"></i></button>
+            <h2>About Me</h2>
+            <div class="card">
+                <div class="tab-container">
+                    <button class="tab-btn active" onclick="openTab(event, 'bio')">Biography</button>
+                    <button class="tab-btn" onclick="openTab(event, 'vision')">My Vision</button>
+                    <button class="tab-btn" onclick="openTab(event, 'values')">Core Values</button>
+                </div>
+                
+                <div id="bio" class="tab-content active">
+                    <p style="font-size: 1.1rem; color: var(--text-muted); margin-bottom: 1rem;">I am a passionate Forensic Science student with a strong interest in evidence analysis and crime investigation. My academic training has equipped me with knowledge in forensic techniques, laboratory analysis, and scientific reasoning.</p>
+                    <p style="font-size: 1.1rem; color: var(--text-muted); margin-bottom: 1rem;">I am eager to apply my skills in real-world forensic investigations and continuously enhance my expertise. Driven by curiosity and integrity, I aim to contribute to justice through science.</p>
+                    <p style="font-size: 1.1rem; color: var(--text-muted);">Working as a Forensic Field Officer at CODEF, involved in crime scene examination, evidence identification, collection, preservation, and documentation following standard forensic protocols.</p>
+                </div>
+
+                <div id="vision" class="tab-content">
+                    <p style="font-size: 1.1rem; color: var(--text-muted);">I believe that every detail, no matter how small, plays a crucial role in uncovering the truth. My goal is to bridge the gap between scientific precision and legal justice, ensuring that evidence speaks the truth in every investigation.</p>
+                </div>
+
+                <div id="values" class="tab-content">
+                    <ul class="values-list">
+                        <li><i class="fas fa-check-circle"></i> Precision & Accuracy</li>
+                        <li><i class="fas fa-check-circle"></i> Scientific Integrity</li>
+                        <li><i class="fas fa-check-circle"></i> Analytical Thinking</li>
+                        <li><i class="fas fa-check-circle"></i> Unbiased Observation</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <button class="close-btn" onclick="showSection('home')" title="Close (Esc)"><i class="fas fa-times"></i></button>
+            <h2>Skills</h2>
+            <div class="card">
+                <div class="skill-category">
+                    <h3>Forensic Analysis</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Fingerprint Analysis</span>
+                        <span class="skill-tag">DNA Profiling</span>
+                        <span class="skill-tag">Toxicology</span>
+                        <span class="skill-tag">Ballistics</span>
+                        <span class="skill-tag">Crime Scene Photography</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Software</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Microscopy</span>
+                        <span class="skill-tag">Chromatography</span>
+                        <span class="skill-tag">MS Office Suite</span>
+                        <span class="skill-tag">Data Analysis</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <button class="close-btn" onclick="showSection('home')" title="Close (Esc)"><i class="fas fa-times"></i></button>
+            <h2>Education</h2>
+            <div class="card">
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - 2026</div>
+                    <h3 style="color: var(--text-main); margin-bottom: 0.5rem;">B.Sc. Forensic Science</h3>
+                    <p style="color: var(--text-muted);">Centurion University of Technology and Management</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2021 - 2022</div>
+                    <h3 style="color: var(--text-main); margin-bottom: 0.5rem;">Intermediate (Science)</h3>
+                    <p style="color: var(--text-muted);">Sri Basara Educational Institution of Junior College</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2015 - 2020</div>
+                    <h3 style="color: var(--text-main); margin-bottom: 0.5rem;">Schooling</h3>
+                    <p style="color: var(--text-muted);">Kendriya Vidyalaya INS Kalinga School</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <button class="close-btn" onclick="showSection('home')" title="Close (Esc)"><i class="fas fa-times"></i></button>
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Crime Scene Reconstruction</h3>
+                    <p>Simulated a complex crime scene to analyze blood spatter patterns and trajectory using 3D modeling software.</p>
+                    <div class="project-tools">
+                        <span class="tool-badge">3D Modeling</span>
+                        <span class="tool-badge">Physics</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Fingerprint Enhancement</h3>
+                    <p>Research on using novel chemical reagents to enhance latent fingerprints on porous surfaces, improving recovery rates by 20%.</p>
+                    <div class="project-tools">
+                        <span class="tool-badge">Chemical Analysis</span>
+                        <span class="tool-badge">Lab Research</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Digital Evidence Analysis</h3>
+                    <p>Recovered deleted data from damaged storage devices using forensic software tools like EnCase and FTK.</p>
+                    <div class="project-tools">
+                        <span class="tool-badge">EnCase</span>
+                        <span class="tool-badge">FTK Imager</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements">
+            <button class="close-btn" onclick="showSection('home')" title="Close (Esc)"><i class="fas fa-times"></i></button>
+            <h2>Achievements & Awards</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Digital Forensics Workshop</h3>
+                    <p>Attended Centurion University Bhubaneswar. Winner of the post-workshop quiz and badge recipient.</p>
+                    <div class="project-tools">
+                        <span class="tool-badge">Winner</span>
+                        <span class="tool-badge">Workshop</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>INSPIRE Award</h3>
+                    <p>Received Rs.10,000/- for Science Project/model preparation and participation in District level Exhibition.</p>
+                    <div class="project-tools">
+                        <span class="tool-badge">2018</span>
+                        <span class="tool-badge">Award</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>GREEN Olympiad</h3>
+                    <p>Participated in the annual environment examination.</p>
+                    <div class="project-tools">
+                        <span class="tool-badge">2018</span>
+                        <span class="tool-badge">Participation</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Patriotic Quiz</h3>
+                    <p>Participated in the Patriotic Quiz organized on MyGov platform.</p>
+                    <div class="project-tools">
+                        <span class="tool-badge">MyGov</span>
+                        <span class="tool-badge">Quiz</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <button class="close-btn" onclick="showSection('home')" title="Close (Esc)"><i class="fas fa-times"></i></button>
+            <h2>Get in Touch</h2>
+            <div class="card contact-card">
+                <p style="text-align: center; color: var(--text-muted); margin-bottom: 2rem;">Have a question or want to work together? Drop me a message!</p>
+                <form action="mailto:manasaratna2707@gmail.com" method="post" enctype="text/plain">
+                    <div class="input-wrapper">
+                        <i class="fas fa-user input-icon"></i>
+                        <input type="text" name="name" class="form-input" placeholder="Your Name" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <i class="fas fa-envelope input-icon"></i>
+                        <input type="email" name="email" class="form-input" placeholder="Your Email" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <i class="fas fa-comment-dots input-icon textarea-icon"></i>
+                        <textarea name="message" class="form-input" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn send-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+                <div style="text-align: center; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--glass-border);">
+                    <p style="color: var(--text-muted); margin-bottom: 1rem;">Or connect with me professionally</p>
+                    <a href="https://www.linkedin.com/in/manasa-ratna-9b5743354" target="_blank" class="btn btn-outline" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+                        <i class="fab fa-linkedin"></i> Connect on LinkedIn
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Resume Modal -->
+    <div id="resume-modal" class="modal-overlay" onclick="closeResumeModal(event)" style="background: rgba(0,0,0,0.8); backdrop-filter: blur(4px);">
+        <div class="modal-content" onclick="event.stopPropagation()" style="width: 90%; height: 90%; max-width: 1200px; background: #fff; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);">
+            <div style="padding: 16px 24px; background: #fff; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #f0f0f0;">
+                <h3 style="margin: 0; color: #1a1a1a; font-size: 1.25rem; font-weight: 600; display: flex; align-items: center; gap: 10px;"><i class="fas fa-file-pdf" style="color: #e74c3c;"></i> Resume Preview</h3>
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <a href="Manasa_Ratna_Resume.pdf" download class="btn-sm" style="text-decoration: none; color: #555; font-size: 0.9rem; padding: 6px 12px; border: 1px solid #ddd; border-radius: 6px; display: flex; align-items: center; gap: 6px;"><i class="fas fa-download"></i> Download</a>
+                    <button class="modal-close-btn" onclick="closeResumeModal(event)" style="background: #f5f5f5; border: none; width: 32px; height: 32px; border-radius: 50%; cursor: pointer; color: #555; display: flex; align-items: center; justify-content: center; transition: all 0.2s;"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+            <iframe src="Manasa_Ratna_Resume.pdf#view=FitH" width="100%" height="100%" style="border: none; flex-grow: 1; background: #f8f9fa;"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
